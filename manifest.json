@@ -1,0 +1,12 @@
+{
+  // Required
+  "manifest_version": 2,
+  "name": "MrEncryptorDecryptor",
+  "version": "1",
+
+  // Recommended
+  "description": "Send encrypted messages to your friends!",
+  "icons": {"16": "icon16.png",
+           "48": "icon48.png",
+          "128": "icon128.png"}
+ }
