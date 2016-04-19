@@ -49,7 +49,7 @@ document.onkeypress = function (e) {
 					finalOutput = finalOutput + output;
 					//document.write(output);
 				}
-				//else if (finalOutput == undefined) {finalOutput = " ";}
+				else if (finalOutput == undefined) {finalOutput = "";}
 			}
 		}
 	document.getElementById("outputText").innerHTML = finalOutput;//displays the output into the output box	
